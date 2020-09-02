@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="base">
+      <UniqueIdentifier>{29f3333e-923b-4554-bc85-859e94f12e4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="composites">
+      <UniqueIdentifier>{8506ed66-4ea9-40ab-bb13-a45cf6745a77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="primitives">
+      <UniqueIdentifier>{4485e7b6-db06-4d9d-8432-efc25f7c24cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lighting">
+      <UniqueIdentifier>{176fae75-38bf-47e1-8e02-44eb05c957c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{d9d6a705-db77-4de3-8669-5cf7456f28b3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ShaderProgram.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="LampShader.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="gl_05.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="gl_05.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="LampShader.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="SkyboxShader.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="SkyboxShader.vert">
+      <Filter>shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ShaderProgram.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Primitive.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="Composite.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="Cube.h">
+      <Filter>primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="Cylinder.h">
+      <Filter>primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="PointLight.h">
+      <Filter>lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="CubicPointLight.h">
+      <Filter>lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="Sphere.h">
+      <Filter>primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="SphericalPointLight.h">
+      <Filter>lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="CylindricalPointLight.h">
+      <Filter>lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockPointLight.h">
+      <Filter>lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="Skybox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Floor.h">
+      <Filter>composites</Filter>
+    </ClInclude>
+    <ClInclude Include="Windmill.h">
+      <Filter>composites</Filter>
+    </ClInclude>
+    <ClInclude Include="Textures.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Frustum.h">
+      <Filter>primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
